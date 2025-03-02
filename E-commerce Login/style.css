@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: black;
+    height: 40px;
+}
+
+.top {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 10px;
+}
+
+.first-item {
+    display: flex;
+    font-size: 10px;
+}
+
+.first-item i {
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.second-item {
+    font-size: 12px;
+}
+
+.second-item i {
+    font-size: 12px;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: center;
+}
+
+.main-heading {
+    padding: 20px;
+}
+
+.search-item {
+    /* padding: 5px; */
+    font-size: 12px;
+    /* margin-top: 20px; */
+    outline: none;
+    border: 0;
+}
+
+.fa-solid {
+    margin: 0;
+}
+
+.search {
+    border-color: #080808;
+    border: 1px #080808 solid;
+    /* margin: 3px; */
+    padding: 5px;
+    /* height: 3rem; */
+}
+
+.search-icon {
+    font-size: 12px;
+    /* padding: 5px; */
+}
+
+.bar-icon i {
+    font-size: 30px;
+    padding: 20px;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.phonepic img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Login {
+    padding: 30px;
+    text-align: justify
+}
+
+.Login h4 {
+    font-size: 15px;
+}
+
+.Login p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.btn1 {
+    border: 1px #080808 solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn2 {
+    border: 1px #080808 solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.bt {
+    display: flex;
+}
+
+.lg {
+    color: #fff;
+    background-color: rgb(163, 11, 11);
+    margin-top: 45px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 12px;
+    height: 40px;
+    width: 100px;
+}
+
+.bt p {
+    color: rgb(163, 11, 11);
+    margin-top: 45px;
+    padding: 15px;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+footer {
+    background-color: black;
+}
+
+.ft-main {
+    padding: 20px;
+    text-align: justify;
+}
+
+.ft-class h2 {
+    color: #fff;
+    font-size: 35px;
+    text-align: justify;
+}
+
+.ft-class p {
+    color: #fff;
+    font-size: 25px;
+}
+
+.ft-class a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.ft-class {
+    text-align: justify;
+    margin-top: 5px;
+}
+
+.email {
+    border-radius: 5px white solid;
+    text-align: center;
+    padding-left: 5px;
+    margin-top: 10px;
+    height: 25px;
+}
+
+.download p {
+    color: #fff;
+    font-size: 25px;
+}
+
+.download a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.pic {
+    display: flex;
+}
+
+.pic img {
+    width: 20%;
+    margin-top: 20px;
+}
+
+.google img {
+    width: 100px;
+    margin-left: 5px;
+}
+
+.social-icon {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.social-icon i {
+    padding: 5px;
+}
+
+@media screen and (min-width:1028px) {
+    .first-item {
+        font-size: 20px;
+    }
+    .second-item {
+        font-size: 20px;
+    }
+    .main-heading {
+        font-size: 30px;
+    }
+    .bar-icon {
+        font-size: 15px;
+    }
+    .main-content {
+        display: flex;
+    }
+    .Login {
+        padding-top: 150px;
+    }
+    .Login h4 {
+        font-size: 30px;
+    }
+    .Login p {
+        font-size: 20px;
+    }
+    .btn1 {
+        font-size: 20px;
+    }
+    .btn2 {
+        font-size: 20px;
+    }
+    .ft-main {
+        display: flex;
+    }
+    .ft-class {
+        margin-left: 100px;
+    }
+    .ft-class p {
+        margin-bottom: 5px;
+    }
+    .download {
+        margin-left: 60px;
+    }
+    .pic img {
+        width: 70px;
+        height: 70px;
+    }
+    .google img {
+        width: 60px;
+        height: 20px;
+    }
+}
